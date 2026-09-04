@@ -1,0 +1,38 @@
+export const courses = [
+  {
+    id: "cs101",
+    title: "Introduction to Computer Science",
+    instructor: "Dr. A. Sharma",
+    duration: "12 Weeks",
+    level: "Beginner",
+    description: "Learn fundamentals of computer science, algorithms, and problem solving using Python.",
+    syllabus: ["Programming Basics", "Data Structures", "Algorithms", "Problem Solving"],
+  },
+  {
+    id: "react201",
+    title: "React - Modern Web Development",
+    instructor: "Priya Patel",
+    duration: "8 Weeks",
+    level: "Intermediate",
+    description: "Master React, React Router and Context API by building real-world projects with functional components and JSX.",
+    syllabus: ["JSX & Components", "React Router DOM", "Context API & Hooks", "Project Deployment"],
+  },
+  {
+    id: "db301",
+    title: "Database Management Systems",
+    instructor: "Prof. R. Verma",
+    duration: "10 Weeks",
+    level: "Intermediate",
+    description: "In-depth study of relational databases, SQL, normalization and transactions.",
+    syllabus: ["ER Modelling", "SQL Queries", "Normalization", "Transactions & Indexing"],
+  },
+  {
+    id: "ai401",
+    title: "Artificial Intelligence Fundamentals",
+    instructor: "Dr. Neha Singh",
+    duration: "14 Weeks",
+    level: "Advanced",
+    description: "Explore AI concepts including search, machine learning and neural networks with hands-on labs.",
+    syllabus: ["Search Algorithms", "Knowledge Representation", "Machine Learning", "Neural Networks"],
+  },
+];
